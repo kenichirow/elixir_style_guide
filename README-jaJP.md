@@ -477,7 +477,7 @@
   ```
 
 * <a name="camel-case"></a>
-  モジュール名は`CamelCase`を使うこと(HTTP, RFC, XMLなどの頭地語はそのままでよい)
+  モジュール名は`CamelCase`を使うこと(HTTP, RFC, XMLなどの頭字語はそのままでよい)
   <sup>[[link](#camel-case)]</sup>
 
   ```elixir
