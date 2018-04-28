@@ -249,7 +249,7 @@
   <sup>[[link](#newline-eof)]</sup>
 
 
-### シンタックス
+### 構文
 
 * <a name="parentheses"></a>
    `def` が引数をとる場合は括弧を使うこと。引数がない場合は省略すること。
