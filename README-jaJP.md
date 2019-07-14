@@ -80,7 +80,7 @@
   <sup>[[link](#line-endings)]</sup>
 
 * <a name="autocrlf"></a>
-  Gitを使っている場合はwindowsの改行コードであなたのプロジェクトがめちゃくちゃになるのを防ぐために、このように設定してください。  
+  Gitを使っている場合はWindowsの改行コードであなたのプロジェクトがめちゃくちゃになるのを防ぐために、このように設定してください。
   <sup>[[link](#autocrlf)]</sup>
 
   ```sh
@@ -245,7 +245,7 @@
   <sup>[[link](#trailing-whitespace)]</sup>
 
 * <a name="newline-eof"></a>
-  ファイルの終わりには空行をいれること。
+  ファイルの終わりには空行を入れること。
   <sup>[[link](#newline-eof)]</sup>
 
 
@@ -633,7 +633,7 @@
   ```
 
 * <a name="defmodule-spacing"></a>
-  `defmodule`の後に空行を開けてはいけない。
+  `defmodule`の後に空行を入れてはいけない。
   <sup>[[link](#defmodule-spacing)]</sup>
 
 * <a name="module-block-spacing"></a>
@@ -763,7 +763,7 @@
   ```
 
 * <a name="moduledoc-spacing"></a>
-  `@moduledoc`の後には空白行を開けてください。
+  `@moduledoc`の後には空白行を入れてください。
   <sup>[[link](#moduledoc-spacing)]</sup>
 
   ```elixir
