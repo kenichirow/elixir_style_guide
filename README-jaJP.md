@@ -76,7 +76,7 @@
   ```
 
 * <a name="line-endings"></a>
-  Unixスタイルの改行コードを使うこと (\*BSD/Solaris/Linux/OSX ではこれがデフォルトです Windowsを使っている場合は気をつけてください)
+  Unixスタイルの改行コードを使うこと (\*BSD/Solaris/Linux/OSX ではこれがデフォルトです。Windowsを使っている場合は気をつけてください)
   <sup>[[link](#line-endings)]</sup>
 
 * <a name="autocrlf"></a>
@@ -826,7 +826,7 @@
 typespecsは、型と仕様を宣言するための表記法です。
 ドキュメント、または静的解析ツールDialyzerに使用されます。
 カスタムタイプは、モジュール上部に他のタイプと一緒に定義する必要があります。
-([モジュール](#modules)をみてください).
+([モジュール](#modules)をみてください)
 
 * <a name="typedocs"></a>
   Place `@typedoc` and `@type` definitions together, and separate each
@@ -939,7 +939,7 @@ typespecsは、型と仕様を宣言するための表記法です。
   ```
 
 * <a name="lowercase-error-messages"></a>
-  エラーメッセージは小文字で句読点を省いてください
+  エラーメッセージは小文字で句読点を省いてください。
   <sup>[[link](#lowercase-error-messages)]</sup>
 
   ```elixir
@@ -1023,7 +1023,7 @@ _正規表現に関するガイドラインは今のところありません_
 
 ### Tools
 
-[Awesome Elixir][Code Analysis] にコードの静的解析とlintのためのツールがあります
+[Awesome Elixir][Code Analysis] にコードの静的解析とlintのためのツールがあります。
 
 ## Getting Involved
 
