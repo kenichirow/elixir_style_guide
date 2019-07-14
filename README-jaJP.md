@@ -715,8 +715,7 @@
 
 
 ### ドキュメント
-  Elixrのドキュメント(`iex`の中で`h`を入力するか、[ExDoc](https://github.com/elixir-lang/ex_doc)で作られたもの) はモジュールアトリビュート [Module Attributes](\
-  http://elixir-lang.org/getting-started/module-attributes.html#as-annotations) `@moduledoc` と `@doc`を使います。
+  Elixrのドキュメント(`iex`の中で`h`を入力するか、[ExDoc](https://github.com/elixir-lang/ex_doc)で作られたもの) は[モジュールアトリビュート](http://elixir-lang.org/getting-started/module-attributes.html#as-annotations)である `@moduledoc` と `@doc`を使います。
 
 * <a name="moduledocs"></a>
   `@moduledoc` は必ず`defmodule`の次の行に書くこと。
