@@ -22,12 +22,12 @@
   * [その他のスタイル](#その他のスタイル)
   * [スタイルガイド](#スタイルガイド)
   * [ツール](#ツール)
-* __[Getting Involved](#getting-involved)__
-  * [Contributing](#contributing)
-  * [Spread the Word](#spread-the-word)
-* __[Copying](#copying)__
-  * [License](#license)
-  * [Attribution](#attribution)
+* __[コミュニティへの参加方法](#コミュニティへの参加方法)__
+  * [コントリビュート](#コントリビュート)
+  * [広めてください](#広めてください)
+* __[コピーライト](#コピーライト)__
+  * [ライセンス](#ライセンス)
+  * [帰属](#帰属)
 
 
 ## はじめに
@@ -829,8 +829,7 @@ typespecsは、型と仕様を宣言するための表記法です。
 ([モジュール](#modules)をみてください).
 
 * <a name="typedocs"></a>
-  Place `@typedoc` and `@type` definitions together, and separate each
-  pair with a blank line.
+  `@typedoc` と `@type` の定義は一緒に書き、それぞれのペア間には空白行を入れてください。
   <sup>[[link](#typedocs)]</sup>
 
   ```elixir
@@ -1021,11 +1020,11 @@ _正規表現に関するガイドラインは今のところありません_
 他のスタイルガイドについては [Awesome Elixir][Style Guides] を見てください。
 
 
-### Tools
+### ツール
 
 [Awesome Elixir][Code Analysis] にコードの静的解析とlintのためのツールがあります
 
-## Getting Involved
+## コミュニティへの参加方法
 
 
 ### コントリビュート
@@ -1035,30 +1034,26 @@ _正規表現に関するガイドラインは今のところありません_
 [contributing guidelines](CONTRIBUTING.md)と [code of conduct](CODE_OF_CONDUCT.md) を確認してください。
 
 
-### Spread the Word
+### 広めてください
 コミュニティスタイルガイドは、コミュニティのサポートなしでは無意味です。
 ツイートしたり、スターをつけたり、Elixirプログラマに広めてください。
 
 
-## Copying
+## コピーライト
 
 
-### License
+### ライセンス
 
 ![Creative Commons License](http://i.creativecommons.org/l/by/3.0/88x31.png)
-This work is licensed under a
-[Creative Commons Attribution 3.0 Unported License][license]
+本翻訳のライセンスは[Creative Commons Attribution 3.0 Unported License][license]です。
 
 
-### Attribution
+### 帰属
 
-The structure of this guide, bits of example code, and many of the initial
-points made in this document were borrowed from the [Ruby community style guide].
-A lot of things were applicable to Elixir and allowed us to get _some_ document
-out quicker to start the conversation.
+このドキュメントの作成にあたり、ガイドの章立てやコード例の一部、そして原案の多くを[Ruby community style guide]から拝借しました。
+それらの多くのことがElixirにも応用でき、また私達が議論するために _一部の_ ドキュメントを引くことが早くにできました。
 
-Here's the [list of people who has kindly contributed][Contributors] to this
-project.
+ここに、このプロジェクトに対して[親切にもコントリビュートして頂いた方々のリスト][Contributors]を記します。
 
 <!-- Links -->
 [Chinese Traditional]: https://github.com/elixirtw/elixir_style_guide/blob/master/README_zhTW.md
