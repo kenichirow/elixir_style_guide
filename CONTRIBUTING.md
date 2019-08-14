@@ -20,14 +20,27 @@ formatting/markup/style rules so that the style remains consistent:
   alphabetical order at the end of the document, and capitalize the first word
   of the link label.
 
-Install [Markdownlint] to check your changes, and run:
+Use Ruby and [Markdownlint] to check your changes:
 
 ```sh
-mdl --style 'markdown.rb' README.md
+gem install mdl rake
+rake test
 ```
 
 **IMPORTANT**: By submitting a patch, you agree that your work will be
 licensed under the license used by the project.
+
+## The Project Board
+
+If you are looking for issues to work on, the [project board][Project KanBan]
+is the place to go. Usually, you look at the issues from right to left, as
+the ones in the rightmost part are the closer to get merged and have higher
+priority.
+
+If you just want to dive in and start writing, the backlog has the
+'ready to be picked up' issues. These issues have been discussed already and
+are most likely just waiting for someone to make a PR. Just look for the
+issues with the `enhancement` and/or `help wanted` labels.
 
 ## Collaborators
 
@@ -57,6 +70,7 @@ translation:
 [Emacs LineWrap]: http://emacswiki.org/emacs/LineWrap
 [Fork]: https://github.com/christopheradams/elixir_style_guide#fork-destination-box
 [Markdownlint]: https://github.com/mivok/markdownlint
+[Project KanBan]: https://github.com/christopheradams/elixir_style_guide/projects/1
 [Repo]: https://github.com/christopheradams/elixir_style_guide.git
 [Translations]: README.md#translations
 [Vim word wrap]: http://vim.wikia.com/wiki/Automatic_word_wrapping
